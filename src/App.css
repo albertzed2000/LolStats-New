@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+.big404 {
+
+    font-size: 15vw;
+    color:  #ff9900;
+
+
+
+
+}
+
+.pageContent{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.whole {
+  background-color: #ffe6f2;
+}
+
+.summonerInfo{
+  background-color: #ffb366;
+
+
+}
+
+.indexWhole{
+
+  text-align: center;
+}
+
+.indexBigWords{
+  font-size: 10vw;
+  color:  #ff9900;
+}
+
+.indexOmbreBottom{
+  background: rgba(255,230,242,1);
+  background: -moz-linear-gradient(top, rgba(255,230,242,1) 0%, rgba(255,230,242,1) 49%, rgba(255,153,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,230,242,1)), color-stop(49%, rgba(255,230,242,1)), color-stop(100%, rgba(255,153,0,1)));
+  background: -webkit-linear-gradient(top, rgba(255,230,242,1) 0%, rgba(255,230,242,1) 49%, rgba(255,153,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,230,242,1) 0%, rgba(255,230,242,1) 49%, rgba(255,153,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,230,242,1) 0%, rgba(255,230,242,1) 49%, rgba(255,153,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,230,242,1) 0%, rgba(255,230,242,1) 49%, rgba(255,153,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe6f2', endColorstr='#ff9900', GradientType=0 );
+}
+
+.queueType{
+  font-size: 2vw; 
+
+
+}
+
+.killDeathAssist{
+  font-size: 3vw;
+}
+
+.displayUsername{
+  font-size: 3vw;
+  font-family: 'Roboto';
+}
+
+
+
+
+.aboutWhole{
+  text-align: center;
+}
+
+.about-text-all{
+  padding: 5vw 10vw 0vw 10vw;
+}
+
+.about-big-words{
+  font-size: 10vw;
+  
+
+}
+
+.about-sub-big-words{
+  font-size: 4vw;
+
+}
+
+.about-blurb1{
+  font-size: 2vw;
+}
+
+.aboutWhy{
+  font-size: 6vw;
+  
+}
+
+.aboutWhyBlurb{
+  font-size: 2vw;
+}
+
+.aboutHow{
+  font-size: 6vw;
+}
+
+.aboutHowBlurb{
+  font-size: 2vw;
+}
