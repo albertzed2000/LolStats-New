@@ -10,3 +10,6 @@ I used AWS Lambda and API Gateway together to create a serverless API proxy, in 
 
 Since I was only provided a heavily rate-limited developer key by Riot Games, I worried alot about efficiency, as I would quickly reach my rate limit if I made the required 7-10 separate API calls to Riot Games per user lookup. To prevent this, I created a backend server-and-database using Express/NodeJS, Mongoose and MongoDB Atlas that is capable of storing and finding games that have already been looked up. If a player looks themselves up a second time, my frontend FIRST checks the database for existing games, before making the remaining necessary calls to the actual Riot Games server. The usage of a match-storing database eased rate-limiting by at least 50% and up to 500% depending on the number of concurrent players searching up the same match using my service.
 
+
+The live heroku-hosted backend is available [right here!](https://radiant-plateau-97440.herokuapp.com/
+) 
